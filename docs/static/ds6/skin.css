@@ -94,13 +94,15 @@ a.cta-btn {
           align-items: center;
   border: 1px solid;
   box-sizing: border-box;
-  display: inline-block;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-family: inherit;
   font-size: 16px;
   height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
   max-width: 100%;
   padding: 0 16px;
@@ -288,13 +290,6 @@ button.btn--fluid,
 button.expand-btn--fluid,
 a.fake-btn--fluid,
 a.cta-btn--fluid {
-  display: inline-block;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 100%;
 }
 .btn__cell,

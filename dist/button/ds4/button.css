@@ -17,6 +17,9 @@ a.fake-btn {
   font-size: 14px;
   font-weight: normal;
   height: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0;
   padding: 0 48px;
   text-align: center;
@@ -96,13 +99,6 @@ button.expand-btn {
 .btn--fluid,
 .expand-btn--fluid,
 .fake-btn--fluid {
-  display: inline-block;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   width: 100%;
 }
 button.btn--primary,
